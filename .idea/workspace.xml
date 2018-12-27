@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb9018aa-1947-412b-9a4b-38842fa842ab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/ExcptionHandelling.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/stackroute/ExcptionHandellingTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/Checkconsecutive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/stackroute/CheckconsecutiveTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -17,11 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/stackroute/ExcptionHandellingTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+            <state relative-caret-position="358">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -32,12 +30,34 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/ExcptionHandelling.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="300">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <element signature="e#129#130#0" expanded="true" />
                 <element signature="e#164#165#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/Checkconsecutive.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="29" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="29" />
+              <folding>
+                <element signature="e#99#100#0" expanded="true" />
+                <element signature="e#125#126#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/stackroute/CheckconsecutiveTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -60,10 +80,12 @@
       <list>
         <option value="$PROJECT_DIR$/src/test/java/com/stackroute/ExcptionHandellingTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stackroute/ExcptionHandelling.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/stackroute/Checkconsecutive.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/stackroute/CheckconsecutiveTest.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="133" />
     <option name="y" value="47" />
     <option name="width" value="1371" />
@@ -143,7 +165,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545907835671" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545911022085" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
@@ -168,7 +190,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ExcptionHandellingTest.testMain1">
+  <component name="RunManager" selected="JUnit.CheckconsecutiveTest.checkNumbers1">
+    <configuration name="CheckconsecutiveTest.checkNumbers1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JAVA_PE3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.stackroute.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.stackroute" />
+      <option name="MAIN_CLASS_NAME" value="com.stackroute.CheckconsecutiveTest" />
+      <option name="METHOD_NAME" value="checkNumbers1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ExcptionHandellingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JAVA_PE3" />
       <extension name="coverage">
@@ -217,6 +255,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CheckconsecutiveTest.checkNumbers1" />
         <item itemvalue="JUnit.ExcptionHandellingTest.testMain1" />
         <item itemvalue="JUnit.ExcptionHandellingTest.testMain2" />
         <item itemvalue="JUnit.ExcptionHandellingTest" />
@@ -237,9 +276,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ExcptionHandellingTest_testMain1 - 2018.12.27 at 15h 59m 37s.xml">
-      <configuration name="ExcptionHandellingTest.testMain1" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ExcptionHandellingTest_testMain1 - 2018.12.27 at 16h 01m 16s.xml">
       <configuration name="ExcptionHandellingTest.testMain1" configurationId="JUnit" />
     </history-entry>
@@ -266,6 +302,9 @@
     </history-entry>
     <history-entry file="ExcptionHandellingTest_testMain1 - 2018.12.27 at 16h 10m 44s.xml">
       <configuration name="ExcptionHandellingTest.testMain1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CheckconsecutiveTest_checkNumbers1 - 2018.12.27 at 17h 11m 10s.xml">
+      <configuration name="CheckconsecutiveTest.checkNumbers1" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -304,10 +343,20 @@
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/stackroute/ExcptionHandellingTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/ExcptionHandelling.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="300">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="e#129#130#0" expanded="true" />
             <element signature="e#164#165#0" expanded="true" />
@@ -315,12 +364,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/stackroute/ExcptionHandellingTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/stackroute/CheckconsecutiveTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+        <state relative-caret-position="120">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/Checkconsecutive.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="29" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="29" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#99#100#0" expanded="true" />
+            <element signature="e#125#126#0" expanded="true" />
           </folding>
         </state>
       </provider>
