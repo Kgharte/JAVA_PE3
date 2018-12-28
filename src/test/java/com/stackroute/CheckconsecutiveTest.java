@@ -16,13 +16,13 @@ public class CheckconsecutiveTest {
     }
     @Test
     public void checkNumbers1(){
-        assertEquals("98,96,95,94,93 non consecutive numbers",cc.checkNumbers("98,96,95,94,93"));    }
+        assertEquals("98 96 95 94 93 non consecutive numbers",cc.checkNumbers("98,96,95,94,93"));    }
     @Test
     public void checkNumbers2(){
-        assertEquals("54,53,52,51,50,49,48 are consecutive numbers",cc.checkNumbers("54,53,52,51,50,49,48"));    }
+        assertEquals("54 53 52 51 50 49 48 are consecutive numbers",cc.checkNumbers("54,53,52,51,50,49,48"));    }
     @Test
     public void checkNumbers3(){
-        assertEquals(" 1,2,3,4,5,6,6 non consecutive numbers",cc.checkNumbers("1,2,3,4,5,6,6"));    }
+        assertEquals(" 1 2 3 4 5 6 6 non consecutive numbers",cc.checkNumbers("1,2,3,4,5,6,6"));    }
 
     @Test
     public void checkNumbers() {
