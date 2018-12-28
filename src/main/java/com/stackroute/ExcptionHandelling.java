@@ -12,7 +12,14 @@ public class ExcptionHandelling
 
     public boolean main(int[] ints){
 
+        try{
 
+        }catch (ArrayIndexOutOfBoundsException e)
+        {
+
+        }finally {
+
+        }
        return true;
        }
 
