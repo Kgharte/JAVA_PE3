@@ -15,7 +15,7 @@ public class ExcptionHandellingTest {
         //act
         boolean expected = true;
 
-        boolean result = excptionHandelling.main(new int[]{12,21,23,312,4});
+        boolean result = excptionHandelling.main(new int[5]);
         assertEquals(expected,result);
 
         }
@@ -25,7 +25,7 @@ public class ExcptionHandellingTest {
         //act
         boolean expected = false;
 
-        boolean result = excptionHandelling.main(new int[]{12,56,23,312,4});
+        boolean result = excptionHandelling.main(new int[3]);
         assertNotEquals(expected,result);
 
     }
